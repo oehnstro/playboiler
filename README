@@ -1,0 +1,25 @@
+	* PlayBoiler
+
+This is a very simple module for the Play! Framework. It aims to
+give developers an easy way to integrate the HTML5Boilerplate
+project in to a new installation of the Play! Framework.
+
+The module comes with the HTML5Boilerplate files set up in a
+suitable structure for Play. The module copies these
+files in to the Play! project when given the command.
+
+Instructions:
+
+1. Copy the playboiler folder in to your modules folder
+2. Add the following line to the dependencies.yml
+    - play -> playboiler 0.1.0
+3. Run "play deps" to update the dependencies
+
+Commands:
+$ play playboiler:help		- Display a short help text
+$ play playboiler:init		- Copy the boilerplate files in 
+				  to the project folder
+
+Note: The module overwrites any conflicting files, so it is
+strongly recommended that you only run the init command on a 
+fresh installation of Play!.

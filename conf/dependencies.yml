@@ -1,0 +1,4 @@
+self: play -> playboiler 0.1.0
+
+require:
+    - play
